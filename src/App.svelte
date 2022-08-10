@@ -117,14 +117,14 @@
 </div>
 
 <div class="hero min-h-screen bg-base-200">
-  <div class="hero-content text-center text-primary-content">
+  <div class="hero-content text-center">
     <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Vouch Twitter v0</h1>
+      <h1 class="text-5xl font-bold">Vouch Twitter</h1>
       <p class="py-6">
         Vouch Twitter Service is a registered server of <a
           class="link"
           href="https://www.vouchdao.xyz/">Vouch DAO</a
-        >, this server allows users to leverage the power of twitter to create a
+        >, this server allows users to leverage the power of Twitter to create a
         Vouch Record for Web of Value Services.
       </p>
 
