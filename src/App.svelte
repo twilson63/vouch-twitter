@@ -53,7 +53,7 @@
 
   const tweetHREF = (addr) => {
     const text = encodeURI(
-      `I am vouching for my wallet address ${addr}  🐘 via twitter!`
+      `I am vouching for my wallet address ${addr}  🐘 via @vouchdao!`
     );
     return `https://twitter.com/intent/tweet?text=${text}`;
   };
