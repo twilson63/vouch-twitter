@@ -185,7 +185,7 @@
       <p class="py-6">Tweet a vouch message!</p>
       <div class="mockup-code text-primary-content">
         <pre><code
-            >I am vouching for my wallet address {address}  🐘 via twitter!</code
+            >I am vouching for my wallet address {address}  🐘 via @vouchdao!</code
           ></pre>
       </div>
       {#if current === "connected"}
@@ -204,9 +204,10 @@
           class="mt-8 btn btn-info no-underline">Tweet</a
         >
       {/if}
-      <div class="mt-8 alert alert-info">
+      <div class="mt-8 alert alert-warning">
         When you click the "Tweet" button, this app will open up a new tab in
-        which you will need to login and tweet the filled in tweet.
+        which you will need to login and tweet the filled in tweet. Do not
+        modify the tweet, the service looks for the exact match!
       </div>
     </div>
   </div>
